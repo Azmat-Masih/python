@@ -1,0 +1,17 @@
+# Project dependencies for Jarvis Virtual Assistant
+# Install with: pip install -r requirements.txt
+
+SpeechRecognition>=3.8.1
+pyttsx3>=2.90
+requests>=2.28.2
+google-generativeai>=0.3.0
+
+# Optional / system-dependent
+pyaudio>=0.2.11  # Required for microphone input on many systems
+
+# Notes:
+# - On Windows, installing PyAudio via pip may fail due to missing portaudio binaries.
+#   If `pip install pyaudio` fails, download a matching wheel from
+#   https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio and install with:
+#     pip install <path-to-wheel-file>
+# - Replace pinned versions with the latest compatible versions if needed.
